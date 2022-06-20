@@ -1,0 +1,90 @@
+.Project{
+    background-color: lightblue;
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2%;
+        padding-left: 3%;
+        align-items: center;
+        .title{
+            font-size: 150%;
+        }
+        ul{
+            margin: 5px;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            
+        }
+        .container{
+            width: 70%;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            .itemandtext{
+                padding-top: 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                h4{
+                    
+                    width: 400px;
+                    font-weight: 500;
+                    padding-bottom: 20px;
+                    font-size: 120%;
+                }
+            .item{
+                
+                width: 250px;
+                height: 250px;
+                border-radius: 20px;
+                
+                margin: 5px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                
+                h3{
+                    position: absolute;
+                    font-size: 20px;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    z-index: 1;
+                    
+                }
+                &:hover{
+                    background-color: lightgreen;
+                    img{
+                        opacity: 0.2;
+                        z-index: 0;
+                    }
+                }
+            }
+            .info{
+                font-weight: 600;
+                font-size: 120%;
+                display: flex;
+                flex-direction: row;
+                padding-bottom: 20px;
+                
+                li{
+                    padding-left: 30px;
+
+                    
+                }
+
+            }
+            p{
+                font-size: 120%;
+            }
+        }
+
+        }
+    }
+}

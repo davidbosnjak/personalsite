@@ -1,0 +1,55 @@
+.information{
+        
+        display: flex;
+        
+        .left_side{
+            .textvals{
+                margin-top: 3%;
+                margin-left: 10%;
+                font-size: 110%;
+            }
+            h1{
+                margin-top: 3%;
+                font-size: 320%;
+            }
+            flex: 0.5;
+            background-color: lightsteelblue;
+            p{
+               
+                font-size: 220%;
+                font-weight: 500;
+            }
+            ul{
+                li{
+                    margin-top: 1%;
+                    margin-bottom:1%;
+                }
+            }
+        }
+       .right_side{
+           .textvals{
+            
+                margin-left: 10%;
+               margin-top: 3%;
+               font-size: 110%;
+
+           }
+            h1{
+                margin-top: 3%;
+                font-size: 320%;
+            }
+           flex: 0.5;
+           background-color: #89BD9E;
+           p{
+           
+            font-size: 220%;
+            font-weight: 500;
+        }
+        ul{
+            li{
+                margin-top: 1%;
+                margin-bottom:1%;
+            }
+        }
+       }
+    }
